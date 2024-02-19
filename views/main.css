@@ -1,0 +1,83 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.title {
+    color: blue;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-size: 32px;
+}
+
+.description {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.form {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-around;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+.input {
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin: 20px auto 0;
+    background: aliceblue;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.button{
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: none;
+    padding: 7px;
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+}
+
+.result-title{
+    font-size: 30px;
+    color: green;
+}
+
+.result{
+    font-size: 26px;
+}
+
+.result-value{
+    font-size: 28px;
+    font-weight: 700;
+}
